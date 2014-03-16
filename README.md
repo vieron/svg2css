@@ -11,6 +11,10 @@ Install the module with npm:
 
 ## Configuration
 
+- **dataUris** Type: *Boolean*. Default: *false*
+
+  Generate CSS file with base64 SVGs as data URIs
+
 - **spriteCellWidth** Type: *Number*. Default: *520*
 
   The width of each sprite cell

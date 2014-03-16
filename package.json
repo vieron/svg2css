@@ -1,8 +1,7 @@
 {
   "name": "svg2css",
   "version": "0.0.0",
-  "description": "Read SVGs from a directory, creates sprites of each svg with color variations
-specified in a separated JSON file, and generates a simple CSS file.",
+  "description": "Read SVGs from a directory, creates sprites of each svg with color variations specified in a separated JSON file, and generates a simple CSS file.",
   "main": "lib/svg2css.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,29 @@
+{
+  "name": "svg2css",
+  "version": "0.0.0",
+  "description": "Read SVGs from a directory, creates sprites of each svg with color variations
+specified in a separated JSON file, and generates a simple CSS file.",
+  "main": "lib/svg2css.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vieron/svg2css.git"
+  },
+  "keywords": [
+    "svg",
+    "css",
+    "icons",
+    "color"
+  ],
+  "author": "vieron",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "~0.8.1",
+    "lodash": "~2.4.1",
+    "color": "~0.5.0",
+    "svgo": "~0.4.4",
+    "xml2js": "~0.4.1"
+  }
+}

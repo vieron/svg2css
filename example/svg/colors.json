@@ -1,0 +1,13 @@
+{
+    "ios7-albums": {
+        "blue": "blue",
+        "white": "#DDD"
+    },
+
+    "ios7-arrow-back": {
+        "pink": "pink",
+        "blue": "blue",
+        "yellow": "yellow",
+        "orange": "orange"
+    }
+}

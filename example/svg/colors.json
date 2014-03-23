@@ -1,13 +1,16 @@
 {
-    "ios7-albums": {
+    "colors": {
         "blue": "blue",
-        "white": "#DDD"
-    },
-
-    "ios7-arrow-back": {
+        "white": "#DDD",
         "pink": "pink",
-        "blue": "blue",
         "yellow": "yellow",
         "orange": "orange"
+    },
+
+    "defaults": ["blue"],
+
+    "custom": {
+        "ios7-albums": ["white", "orange", "pink", "yellow"],
+        "ios7-arrow-back": ["white", "orange", "pink", "yellow"]
     }
 }

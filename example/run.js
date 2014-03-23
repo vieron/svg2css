@@ -2,7 +2,6 @@
 
     var SVG2CSS = require('./../lib/svg2css');
 
-
     var svg2css = new SVG2CSS({
         dataUris: true,
         svgPath: 'example/svg/',
@@ -11,12 +10,6 @@
         colorFile: 'colors.json' // relative to svgPath
     });
 
-
-    svg2css
-    .readColorData()
-    .extractColors()
-    .copyToOutput()
-    .toSprite()
-    .toCSS();
+    svg2css.run();
 
 })();

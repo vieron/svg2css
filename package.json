@@ -1,6 +1,6 @@
 {
   "name": "svg2css",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Read SVGs from a directory, creates sprites of each svg with color variations specified in a separated JSON file, and generates a simple CSS file.",
   "main": "lib/svg2css.js",
   "scripts": {
